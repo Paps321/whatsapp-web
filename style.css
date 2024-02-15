@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1{
+    background-color: #00A884;
+    height: 220px;
+}
+.container2{
+    background-color:#F0F2F5;
+}
+.logo{
+    /* border: 1px solid; */
+    position: relative;
+    top: 20px;
+}
+.text{
+    position: relative;
+    top: 10px;
+    font-size: 13px;
+    left: 10px;
+    color: #FFFFFF;
+    font-family: 'Segoe UI';
+
+
+}
+header{
+    margin-left: 190px;
+}
+.main{
+    /* border: 1px solid gray; */
+    position: absolute;
+    top: 90px;
+    left: 190px;
+    width: 1000px;
+    border-radius: 5px 5px;
+    background-color:#FFFFFF;
+    box-shadow: #00A884;
+
+}
+.box{
+    border: 1px solid rgb(211, 210, 210);
+    height: 110px;
+    margin: 50px 80px;
+    border-radius: 5px 5px;
+}
+p{
+    /* border: 1px solid purple; */
+    position: relative;
+    top: -25px;
+    left: 160px;
+    color: gray
+}
+button{
+    position: relative;
+    left: 680px;
+    top: -60px;
+    padding: 11px 25px;
+    border-radius: 18px 18px;
+    border: none;
+    background-color:#008069;
+    color: #fff;
+}
+.qrcode{
+    position: absolute;
+    top: 180px;
+    left: 680px;
+}
+section{
+    position: relative;
+    top: 25px;
+    left: 50px;
+}
+#subheader{
+    font-size: 30px;
+    position: relative;
+    left: 50px;
+    color: #41525D;
+    font-family: 'Segoe UI';
+    font-weight: 300;
+}
+ol li{
+    font-size: 20px;
+    position: relative;
+    left: 70px;
+    top: 30px;
+    word-spacing: 2px;
+    /* justify-content: space-evenly; */
+    font-family: 'Segoe UI';
+    color: #3B4A54;
+} 
+#list{
+    /* border: 1px solid; */
+    margin-bottom: 17px;
+}
+strong{
+    color:  #3B4A54;
+}
+hr{
+    margin-top: 85px;
+    width: 900px;
+    position: relative;
+    left: 50px;
+    color: #fff;
+}
+.statement{
+    color:#008069;
+    font-family: 'Segoe UI';
+    position: relative;
+    top: 50px;
+    left: 50px;
+    font-size: 18px;
+}
+.container3{
+    background-color: white;
+    height: 100vh;
+    box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, 0.123);
+    margin-bottom: 100px;
+}
+.vid{
+    margin-top: 130px ;
+    padding-top: 70px;
+    background-color: rgb(252, 249, 245);
+}
+.statement{
+    font-weight: 500;
+    color: rgb(30, 102, 30);
+}
+.tutorial{
+    padding: 20px;
+    font-size: 35px;
+    font-weight: 100;
+    text-decoration: none;
+    
+}
+.need{
+    padding: 0px 0px 10px 80px;
+    color: rgb(2, 167, 2);
+}
+.need:hover{
+    text-decoration: underline;
+}
